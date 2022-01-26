@@ -1,3 +1,5 @@
+let banco = [];
+
 const getBanco = () => JSON.parse(localStorage.getItem ('todoList')) ?? [];
 const setBanco = (banco) => localStorage.setItem ('todoList', JSON.stringify(banco));
 
